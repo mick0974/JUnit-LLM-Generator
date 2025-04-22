@@ -1,2 +1,8 @@
 
 .idea/
+
+src/client/__pycache__/
+
+src/generator/__pycache__/
+
+src/utils/__pycache__/

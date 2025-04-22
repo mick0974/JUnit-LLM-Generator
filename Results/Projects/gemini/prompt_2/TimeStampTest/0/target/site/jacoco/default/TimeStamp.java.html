@@ -232,19 +232,19 @@ public class TimeStamp implements java.io.Serializable, Comparable&lt;TimeStamp&
 	 * @return NTP timestamp representation of Java time value.
 	 */
 	protected static long toNtpTime(long t) {
-<span class="pc bpc" id="L235" title="1 of 2 branches missed.">		boolean useBase1 = t &lt; msb0baseTime;    // time &lt; Feb-2036</span>
+<span class="fc bfc" id="L235" title="All 2 branches covered.">		boolean useBase1 = t &lt; msb0baseTime;    // time &lt; Feb-2036</span>
 		long baseTime;
-<span class="pc bpc" id="L237" title="1 of 2 branches missed.">		if (useBase1) {</span>
+<span class="fc bfc" id="L237" title="All 2 branches covered.">		if (useBase1) {</span>
 <span class="fc" id="L238">			baseTime = t - msb1baseTime; // dates &lt;= Feb-2036</span>
 		} else {
 			// if base0 needed for dates &gt;= Feb-2036
-<span class="nc" id="L241">			baseTime = t - msb0baseTime;</span>
+<span class="fc" id="L241">			baseTime = t - msb0baseTime;</span>
 		}
 
 <span class="fc" id="L244">		long seconds = baseTime / 1000;</span>
 <span class="fc" id="L245">		long fraction = ((baseTime % 1000) * 0x100000000L) / 1000;</span>
 
-<span class="pc bpc" id="L247" title="1 of 2 branches missed.">		if (useBase1) {</span>
+<span class="fc bfc" id="L247" title="All 2 branches covered.">		if (useBase1) {</span>
 <span class="fc" id="L248">			seconds |= 0x80000000L; // set high-order bit if msb1baseTime 1900 used</span>
 		}
 
@@ -346,12 +346,12 @@ public class TimeStamp implements java.io.Serializable, Comparable&lt;TimeStamp&
 	 * @return a string representation of this date.
 	 */
 	public String toDateString() {
-<span class="nc bnc" id="L349" title="All 2 branches missed.">		if (simpleFormatter == null) {</span>
-<span class="nc" id="L350">			simpleFormatter = new SimpleDateFormat(NTP_DATE_FORMAT, Locale.US);</span>
-<span class="nc" id="L351">			simpleFormatter.setTimeZone(TimeZone.getDefault());</span>
+<span class="fc bfc" id="L349" title="All 2 branches covered.">		if (simpleFormatter == null) {</span>
+<span class="fc" id="L350">			simpleFormatter = new SimpleDateFormat(NTP_DATE_FORMAT, Locale.US);</span>
+<span class="fc" id="L351">			simpleFormatter.setTimeZone(TimeZone.getDefault());</span>
 		}
-<span class="nc" id="L353">		Date ntpDate = getDate();</span>
-<span class="nc" id="L354">		return simpleFormatter.format(ntpDate);</span>
+<span class="fc" id="L353">		Date ntpDate = getDate();</span>
+<span class="fc" id="L354">		return simpleFormatter.format(ntpDate);</span>
 	}
 
 	/***
@@ -364,13 +364,13 @@ public class TimeStamp implements java.io.Serializable, Comparable&lt;TimeStamp&
 	 * @return a string representation of this date in UTC.
 	 */
 	public String toUTCString() {
-<span class="nc bnc" id="L367" title="All 2 branches missed.">		if (utcFormatter == null) {</span>
-<span class="nc" id="L368">			utcFormatter = new SimpleDateFormat(NTP_DATE_FORMAT + &quot; 'UTC'&quot;,</span>
+<span class="fc bfc" id="L367" title="All 2 branches covered.">		if (utcFormatter == null) {</span>
+<span class="fc" id="L368">			utcFormatter = new SimpleDateFormat(NTP_DATE_FORMAT + &quot; 'UTC'&quot;,</span>
 					Locale.US);
-<span class="nc" id="L370">			utcFormatter.setTimeZone(TimeZone.getTimeZone(&quot;UTC&quot;));</span>
+<span class="fc" id="L370">			utcFormatter.setTimeZone(TimeZone.getTimeZone(&quot;UTC&quot;));</span>
 		}
-<span class="nc" id="L372">		Date ntpDate = getDate();</span>
-<span class="nc" id="L373">		return utcFormatter.format(ntpDate);</span>
+<span class="fc" id="L372">		Date ntpDate = getDate();</span>
+<span class="fc" id="L373">		return utcFormatter.format(ntpDate);</span>
 	}
 
 	/***
@@ -388,7 +388,7 @@ public class TimeStamp implements java.io.Serializable, Comparable&lt;TimeStamp&
 	public int compareTo(TimeStamp anotherTimeStamp) {
 <span class="fc" id="L389">		long thisVal = this.ntpTime;</span>
 <span class="fc" id="L390">		long anotherVal = anotherTimeStamp.ntpTime;</span>
-<span class="fc bfc" id="L391" title="All 4 branches covered.">		return (thisVal &lt; anotherVal ? -1 : (thisVal == anotherVal ? 0 : 1));</span>
+<span class="pc bpc" id="L391" title="2 of 4 branches missed.">		return (thisVal &lt; anotherVal ? -1 : (thisVal == anotherVal ? 0 : 1));</span>
 	}
 
 }

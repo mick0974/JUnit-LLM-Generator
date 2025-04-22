@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TimeStampTest" time="0.046" tests="54" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TimeStampTest" time="0.055" tests="61" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/test-classes:/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/classes:/home/michele/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/michele/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/michele/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:"/>
+    <property name="java.class.path" value="/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/test-classes:/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/classes:/home/michele/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/michele/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/michele/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:"/>
     <property name="java.vm.vendor" value="Private Build"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,20 +17,20 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/surefire/surefirebooter3441292483788191033.jar /home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/surefire 2025-04-21T17-05-51_612-jvmRun1 surefire3373470887701383738tmp surefire_05751337364252921684tmp"/>
-    <property name="surefire.test.class.path" value="/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/test-classes:/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/classes:/home/michele/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/michele/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/michele/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:"/>
+    <property name="sun.java.command" value="/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/surefire/surefirebooter7270877935302759185.jar /home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/surefire 2025-04-22T14-09-14_501-jvmRun1 surefire8358308374093896864tmp surefire_05185542120936004499tmp"/>
+    <property name="surefire.test.class.path" value="/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/test-classes:/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/classes:/home/michele/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/michele/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/michele/.m2/repository/org/xmlunit/xmlunit-core/2.9.0/xmlunit-core-2.9.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/michele"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
-    <property name="basedir" value="/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0"/>
+    <property name="basedir" value="/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/surefire/surefirebooter3441292483788191033.jar:/home/michele/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar"/>
+    <property name="surefire.real.class.path" value="/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0/target/surefire/surefirebooter7270877935302759185.jar:/home/michele/.m2/repository/org/jacoco/org.jacoco.agent/0.8.8/org.jacoco.agent-0.8.8-runtime.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_442-8u442-b06~us1-0ubuntu1~22.04-b06"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="1.8.0_442"/>
-    <property name="user.dir" value="/home/michele/LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0"/>
+    <property name="user.dir" value="/home/michele/JUnit-LLM-Generator/Results/Projects/gemini/prompt_2/TimeStampTest/0"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -59,58 +59,65 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="DecodeNtpHexStringEmptySecondsTest" classname="TimeStampTest" time="0.004"/>
-  <testcase name="HashCodeEqualForEqualObjectsTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetFractionReturnsCorrectValueTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorLongZeroTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ToStringReturnsCorrectFormatTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetTimeStaticZeroTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringValidZeroWithDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetCurrentTimeReturnsValidTimeStampTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ToStringStaticReturnsCorrectFormatTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorDateBefore2036Test" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringInvalidHexTest" classname="TimeStampTest" time="0"/>
-  <testcase name="CompareToGreaterThanTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ParseNtpStringInvalidTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringInvalidHexTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetTimeStaticMsb1BaseTest" classname="TimeStampTest" time="0"/>
-  <testcase name="EqualsEqualObjectTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringValidNoDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="CompareToLessThanTest" classname="TimeStampTest" time="0.001"/>
-  <testcase name="ConstructorStringValidNoDotTest" classname="TimeStampTest" time="0.001"/>
-  <testcase name="GetDateReturnsCorrectDateTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringValidEmptyTest" classname="TimeStampTest" time="0"/>
-  <testcase name="EqualsDifferentTypeTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetTimeMsb1BaseTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ParseNtpStringNullTest" classname="TimeStampTest" time="0"/>
-  <testcase name="EqualsDifferentObjectTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringValidEmptyTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringValidWithDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="CompareToEqualTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorDateEpochTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorDateNullTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringValidZeroTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringEmptyFractionTest" classname="TimeStampTest" time="0.001"/>
-  <testcase name="ConstructorStringInvalidFormatTrailingDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetSecondsReturnsCorrectValueTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ToNtpTimeBefore2036Test" classname="TimeStampTest" time="0"/>
-  <testcase name="EqualsNullTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ToStringStaticPaddingTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringInvalidFormatLeadingDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringNullTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ToStringPaddingTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetTimeFractionRoundingTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetTimeZeroTest" classname="TimeStampTest" time="0"/>
-  <testcase name="HashCodeDifferentForDifferentObjectsTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringValidWithDotTest" classname="TimeStampTest" time="0.001"/>
-  <testcase name="ParseNtpStringValidTest" classname="TimeStampTest" time="0"/>
-  <testcase name="HashCodeConsistentTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringInvalidCharsTest" classname="TimeStampTest" time="0"/>
-  <testcase name="DecodeNtpHexStringValidZeroTest" classname="TimeStampTest" time="0"/>
-  <testcase name="EqualsSameObjectTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringValidZeroWithDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="NtpValueReturnInternalValueTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorLongNominalTest" classname="TimeStampTest" time="0"/>
-  <testcase name="ConstructorStringInvalidFormatJustDotTest" classname="TimeStampTest" time="0"/>
-  <testcase name="GetNtpTimeStaticBefore2036Test" classname="TimeStampTest" time="0"/>
+  <testcase name="getTimeInstanceMsb0Test" classname="TimeStampTest" time="0.003"/>
+  <testcase name="getTimeInstanceMsb1Test" classname="TimeStampTest" time="0"/>
+  <testcase name="equalsDifferentObjectTest" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringInvalidSecondPartTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toNtpTimeBase0Test" classname="TimeStampTest" time="0"/>
+  <testcase name="toNtpTimeBase1Test" classname="TimeStampTest" time="0"/>
+  <testcase name="equalsNullTest" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringNullTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toStringInstanceTest" classname="TimeStampTest" time="0"/>
+  <testcase name="compareToEqualTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getTimeStaticMsb0Test" classname="TimeStampTest" time="0"/>
+  <testcase name="getTimeStaticMsb1Test" classname="TimeStampTest" time="0.001"/>
+  <testcase name="getNtpTimeStaticBase0Test" classname="TimeStampTest" time="0"/>
+  <testcase name="getNtpTimeStaticBase1Test" classname="TimeStampTest" time="0"/>
+  <testcase name="toStringStaticPaddingFractionTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toUTCStringFormatMsb0Test" classname="TimeStampTest" time="0.006"/>
+  <testcase name="getDateMsb0Test" classname="TimeStampTest" time="0"/>
+  <testcase name="getDateMsb1Test" classname="TimeStampTest" time="0"/>
+  <testcase name="parseNtpStringValidTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorValidZeroTest" classname="TimeStampTest" time="0.001"/>
+  <testcase name="TimeStampStringConstructorValidZeroHexWithDotTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getFractionZeroTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorInvalidHexTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getTimeStaticMsb0BaseTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toDateStringFormatTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toStringStaticZeroTest" classname="TimeStampTest" time="0"/>
+  <testcase name="parseNtpStringNullTest" classname="TimeStampTest" time="0"/>
+  <testcase name="hashCodeEqualObjectsTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getTimeStaticMsb0BaseMinusOneTest" classname="TimeStampTest" time="0.001"/>
+  <testcase name="toStringStaticPaddingSecondsTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getSecondsTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorInvalidHexPart1Test" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorInvalidHexPart2Test" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorValidEmptyTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toUTCStringFormatTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getCurrentTimeNotNullTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getSecondsZeroTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getFractionTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toStringStaticPaddingBothTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampDateConstructorNullTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorValidWithDotTest" classname="TimeStampTest" time="0.001"/>
+  <testcase name="TimeStampStringConstructorInvalidDotPlacementTest" classname="TimeStampTest" time="0"/>
+  <testcase name="hashCodeDifferentObjectsTest" classname="TimeStampTest" time="0"/>
+  <testcase name="equalsDifferentTypeTest" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringWithDotTest" classname="TimeStampTest" time="0"/>
+  <testcase name="parseNtpStringInvalidTest" classname="TimeStampTest" time="0"/>
+  <testcase name="toStringStaticMaxTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampDateConstructorMsb0Test" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringNoDotTest" classname="TimeStampTest" time="0"/>
+  <testcase name="ntpValueGetterTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorValidWithoutDotTest" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringInvalidFirstPartTest" classname="TimeStampTest" time="0.001"/>
+  <testcase name="toNtpTimeBase0EdgeTest" classname="TimeStampTest" time="0"/>
+  <testcase name="getTimeStaticEpochTest" classname="TimeStampTest" time="0"/>
+  <testcase name="equalsEqualObjectTest" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringEmptyTest" classname="TimeStampTest" time="0"/>
+  <testcase name="equalsSameObjectTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampDateConstructorTest" classname="TimeStampTest" time="0"/>
+  <testcase name="decodeNtpHexStringInvalidTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampLongConstructorTest" classname="TimeStampTest" time="0"/>
+  <testcase name="TimeStampStringConstructorNullTest" classname="TimeStampTest" time="0"/>
 </testsuite>
