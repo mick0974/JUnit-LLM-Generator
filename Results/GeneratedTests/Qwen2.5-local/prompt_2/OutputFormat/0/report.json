@@ -1,0 +1,18 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "reports": {
+        "OutputFormat": {
+            "0": [
+                {
+                    "generation_target": "",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                }
+            ]
+        }
+    },
+    "coverage_summary": "No coverage data available"
+}

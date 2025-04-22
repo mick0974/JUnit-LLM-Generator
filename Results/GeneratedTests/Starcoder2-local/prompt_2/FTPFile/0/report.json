@@ -1,0 +1,16 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "reports": {
+        "FTPFile": {
+            "0": [
+                {
+                    "generation_target": "",
+                    "Error": "Heuristics couldn't fix the model response"
+                }
+            ]
+        }
+    },
+    "coverage_summary": "No coverage data available"
+}

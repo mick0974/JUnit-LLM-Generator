@@ -1,0 +1,16 @@
+model_in_use: "gemini"
+prompt_in_use: "prompt_2"
+java_classes:
+  - java_class_path: "./classes/TimeStamp.java"
+    java_class_name: "TimeStamp"
+  - java_class_path: "./classes/FTPFile.java"
+    java_class_name: "FTPFile"
+  - java_class_path: "./classes/FontInfo.java"
+    java_class_name: "FontInfo"
+  - java_class_path: "./classes/HSLColor.java"
+    java_class_name: "HSLColor"
+  - java_class_path: "./classes/OutputFormat.java"
+    java_class_name: "OutputFormat"
+number_tests_for_method: 10
+mvn_max_retries: 2
+number_iteration_for_class: 1

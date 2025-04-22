@@ -1,0 +1,13 @@
+FontInfo_createFontTest.class
+FontInfo_generateStyleTest.class
+FontInfo_setFontTest.class
+FontInfo_isBoldTest.class
+FontInfo_cloneTest.class
+FontInfo_hashCodeTest.class
+FontInfo_toStringTest.class
+FontInfo_equalsTest.class
+FontInfo_isItalicTest.class
+FontInfo_doesFontMatchTest.class
+FontInfo_getSizeTest.class
+FontInfo_setIsItalicTest.class
+FontInfo_setIsBoldTest.class

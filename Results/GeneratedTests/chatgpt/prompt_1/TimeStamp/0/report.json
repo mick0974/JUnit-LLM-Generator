@@ -1,0 +1,16 @@
+{
+    "model": "chatgpt",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "reports": {
+        "TimeStamp": {
+            "0": [
+                {
+                    "generation_target": "ntpValue",
+                    "Error": "Heuristics couldn't fix the model response"
+                }
+            ]
+        }
+    },
+    "coverage_summary": "No coverage data available"
+}

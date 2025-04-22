@@ -1,0 +1,55 @@
+{
+    "model": "chatgpt",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "reports": {
+        "OutputFormat": {
+            "0": [
+                {
+                    "generation_target": "",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                }
+            ]
+        }
+    },
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 92.67,
+            "covered": 468,
+            "missed": 37,
+            "total": 505
+        },
+        "LINE": {
+            "percentage": 93.97,
+            "covered": 109,
+            "missed": 7,
+            "total": 116
+        },
+        "COMPLEXITY": {
+            "percentage": 83.33,
+            "covered": 45,
+            "missed": 9,
+            "total": 54
+        },
+        "METHOD": {
+            "percentage": 100.0,
+            "covered": 35,
+            "missed": 0,
+            "total": 35
+        },
+        "BRANCH": {
+            "percentage": 76.32,
+            "covered": 29,
+            "missed": 9,
+            "total": 38
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

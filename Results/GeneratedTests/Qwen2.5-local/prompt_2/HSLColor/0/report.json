@@ -1,0 +1,55 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "reports": {
+        "HSLColor": {
+            "0": [
+                {
+                    "generation_target": "",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 9
+                }
+            ]
+        }
+    },
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 66.96,
+            "covered": 383,
+            "missed": 189,
+            "total": 572
+        },
+        "LINE": {
+            "percentage": 70.69,
+            "covered": 82,
+            "missed": 34,
+            "total": 116
+        },
+        "COMPLEXITY": {
+            "percentage": 51.92,
+            "covered": 27,
+            "missed": 25,
+            "total": 52
+        },
+        "METHOD": {
+            "percentage": 73.91,
+            "covered": 17,
+            "missed": 6,
+            "total": 23
+        },
+        "BRANCH": {
+            "percentage": 62.07,
+            "covered": 36,
+            "missed": 22,
+            "total": 58
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

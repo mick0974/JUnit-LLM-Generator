@@ -1,0 +1,22 @@
+Qwen2.5-local:
+    path: "./models/Qwen2.5-Coder-7B-Instruct"
+    quantize: True
+    max_new_tokens: 2048
+    type: "local"
+
+Starcoder2-local:
+    path: "./models/Starcoder2-3b"
+    quantize: True
+    max_new_tokens: 2048
+    type: "local"
+
+chatgpt:
+    model: "gpt-4o"
+    api_key: ""
+    type: "api"
+
+gemini:
+    model: "gemini-2.5-pro-exp-03-25"
+    api_key: ""
+    type: "api"
+

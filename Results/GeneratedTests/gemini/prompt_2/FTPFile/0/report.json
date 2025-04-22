@@ -1,0 +1,55 @@
+{
+    "model": "gemini",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "reports": {
+        "FTPFile": {
+            "0": [
+                {
+                    "generation_target": "",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 8
+                }
+            ]
+        }
+    },
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 43.76,
+            "covered": 193,
+            "missed": 248,
+            "total": 441
+        },
+        "LINE": {
+            "percentage": 56.36,
+            "covered": 62,
+            "missed": 48,
+            "total": 110
+        },
+        "COMPLEXITY": {
+            "percentage": 69.23,
+            "covered": 36,
+            "missed": 16,
+            "total": 52
+        },
+        "METHOD": {
+            "percentage": 93.75,
+            "covered": 30,
+            "missed": 2,
+            "total": 32
+        },
+        "BRANCH": {
+            "percentage": 34.21,
+            "covered": 13,
+            "missed": 25,
+            "total": 38
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

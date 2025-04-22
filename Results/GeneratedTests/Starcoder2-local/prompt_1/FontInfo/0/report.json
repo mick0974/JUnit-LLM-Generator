@@ -1,0 +1,145 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "reports": {
+        "FontInfo": {
+            "0": [
+                {
+                    "generation_target": "clone",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "getFamily",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "setFamily",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "isBold",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "setIsBold",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 1
+                },
+                {
+                    "generation_target": "isItalic",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "setIsItalic",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 5
+                },
+                {
+                    "generation_target": "getSize",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "setSize",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "setFont",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 22
+                },
+                {
+                    "generation_target": "doesFontMatch",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 1
+                },
+                {
+                    "generation_target": "generateStyle",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "createFont",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 15
+                },
+                {
+                    "generation_target": "toString",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "hashCode",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 10
+                },
+                {
+                    "generation_target": "equals",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 10
+                }
+            ]
+        }
+    },
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 54.42,
+            "covered": 160,
+            "missed": 134,
+            "total": 294
+        },
+        "LINE": {
+            "percentage": 55.7,
+            "covered": 44,
+            "missed": 35,
+            "total": 79
+        },
+        "COMPLEXITY": {
+            "percentage": 56.82,
+            "covered": 25,
+            "missed": 19,
+            "total": 44
+        },
+        "METHOD": {
+            "percentage": 84.21,
+            "covered": 16,
+            "missed": 3,
+            "total": 19
+        },
+        "BRANCH": {
+            "percentage": 42.0,
+            "covered": 21,
+            "missed": 29,
+            "total": 50
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

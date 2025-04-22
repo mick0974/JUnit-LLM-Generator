@@ -1,0 +1,145 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "reports": {
+        "TimeStamp": {
+            "0": [
+                {
+                    "generation_target": "ntpValue",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "getSeconds",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 7
+                },
+                {
+                    "generation_target": "getFraction",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 1
+                },
+                {
+                    "generation_target": "getTime",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 10
+                },
+                {
+                    "generation_target": "getDate",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 8
+                },
+                {
+                    "generation_target": "getTime",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 9
+                },
+                {
+                    "generation_target": "getNtpTime",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 6
+                },
+                {
+                    "generation_target": "getCurrentTime",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "parseNtpString",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 10
+                },
+                {
+                    "generation_target": "hashCode",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 10
+                },
+                {
+                    "generation_target": "equals",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 11
+                },
+                {
+                    "generation_target": "toString",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 3
+                },
+                {
+                    "generation_target": "toString",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 4
+                },
+                {
+                    "generation_target": "toDateString",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 2
+                },
+                {
+                    "generation_target": "toUTCString",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "compareTo",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 2
+                }
+            ]
+        }
+    },
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 73.65,
+            "covered": 246,
+            "missed": 88,
+            "total": 334
+        },
+        "LINE": {
+            "percentage": 75.0,
+            "covered": 54,
+            "missed": 18,
+            "total": 72
+        },
+        "COMPLEXITY": {
+            "percentage": 51.35,
+            "covered": 19,
+            "missed": 18,
+            "total": 37
+        },
+        "METHOD": {
+            "percentage": 63.64,
+            "covered": 14,
+            "missed": 8,
+            "total": 22
+        },
+        "BRANCH": {
+            "percentage": 53.33,
+            "covered": 16,
+            "missed": 14,
+            "total": 30
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

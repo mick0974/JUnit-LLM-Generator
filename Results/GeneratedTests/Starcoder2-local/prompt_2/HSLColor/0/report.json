@@ -1,0 +1,18 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "reports": {
+        "HSLColor": {
+            "0": [
+                {
+                    "generation_target": "",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 102
+                }
+            ]
+        }
+    },
+    "coverage_summary": "No coverage data available"
+}

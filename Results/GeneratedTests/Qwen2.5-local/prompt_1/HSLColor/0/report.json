@@ -1,0 +1,133 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "reports": {
+        "HSLColor": {
+            "0": [
+                {
+                    "generation_target": "initHSLbyRGB",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 9
+                },
+                {
+                    "generation_target": "initRGBbyHSL",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 4
+                },
+                {
+                    "generation_target": "getHue",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 5
+                },
+                {
+                    "generation_target": "setHue",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 6
+                },
+                {
+                    "generation_target": "getSaturation",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 3
+                },
+                {
+                    "generation_target": "setSaturation",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "getLuminence",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 1
+                },
+                {
+                    "generation_target": "setLuminence",
+                    "executable_after_heuristics": true,
+                    "executable_after_cleanup": null,
+                    "removed_methods_during_cleanup": 0
+                },
+                {
+                    "generation_target": "getRed",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 6
+                },
+                {
+                    "generation_target": "getGreen",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 12
+                },
+                {
+                    "generation_target": "getBlue",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 6
+                },
+                {
+                    "generation_target": "reverseColor",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": false,
+                    "removed_methods_during_cleanup": 11
+                },
+                {
+                    "generation_target": "brighten",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 6
+                },
+                {
+                    "generation_target": "blend",
+                    "executable_after_heuristics": false,
+                    "executable_after_cleanup": true,
+                    "removed_methods_during_cleanup": 7
+                }
+            ]
+        }
+    },
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 69.41,
+            "covered": 397,
+            "missed": 175,
+            "total": 572
+        },
+        "LINE": {
+            "percentage": 74.14,
+            "covered": 86,
+            "missed": 30,
+            "total": 116
+        },
+        "COMPLEXITY": {
+            "percentage": 63.46,
+            "covered": 33,
+            "missed": 19,
+            "total": 52
+        },
+        "METHOD": {
+            "percentage": 73.91,
+            "covered": 17,
+            "missed": 6,
+            "total": 23
+        },
+        "BRANCH": {
+            "percentage": 74.14,
+            "covered": 43,
+            "missed": 15,
+            "total": 58
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}
