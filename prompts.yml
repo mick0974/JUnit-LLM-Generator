@@ -1,0 +1,40 @@
+prompt_1:
+  description: "Prompt tratto da: 'Using Large Language Models to Generate JUnit Tests: An Empirical Study'"
+  generation_scope: "method"
+  class_template: |
+    // {java_class_name}.java
+    {java_class_code}
+
+  test_template: |
+    // {test_class_name}.java
+    import org.junit.Before;
+    import org.junit.After;
+    import org.junit.Test;
+    import static org.junit.Assert.*;
+
+    {java_class_imports}
+
+    /**
+     * Test class of {java_class_name}.
+     * It contains {number_tests} unit test cases for the
+     * {java_class_name}#{method_signature} method.
+     * Follow the Arrange-Act-Assert pattern and cover typical and edge cases. 
+     * Contains only valid Java code.  
+     */
+    public class {test_class_name} {{
+
+prompt_2:
+  description: "Prompt tratto da: 'Test Wars: A Comparative Study of SBST, Symbolic Execution, and LLM-Based Approaches to Unit Test Generation'"
+  generation_scope: "class"
+  class_template: |
+    Generate unit tests in Java for {java_class_name} to achieve
+    100% line coverage for this class.
+    Dont use @Before and @After test methods.
+    Make tests as atomic as possible.
+    All tests should be for JUnit 4.
+    Name all methods according to the template -
+    [MethodUnderTest][Scenario]Test, and use only
+    English letters.
+    The source code of class under test is as follows:
+    {java_class_code}
+  test_template: |
