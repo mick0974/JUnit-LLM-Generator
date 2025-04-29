@@ -4,10 +4,10 @@ import subprocess
 
 
 class MavenProject:
-    def __init__(self, project_path, java_class_path, pom_path):
+    def __init__(self, project_path, java_class_path, pom_path, remove_if_exists=True):
         self.error = None
 
-        if os.path.exists(project_path):
+        if os.path.exists(project_path) and remove_if_exists:
             shutil.rmtree(project_path)
         os.makedirs(project_path)
 
