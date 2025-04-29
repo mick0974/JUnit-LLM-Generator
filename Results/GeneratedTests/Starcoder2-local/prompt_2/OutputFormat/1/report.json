@@ -1,0 +1,13 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "java_class": "OutputFormat",
+    "reports": [
+        {
+            "generation_target": "",
+            "Error": "Heuristics couldn't fix the model response"
+        }
+    ],
+    "coverage_summary": "No coverage data available"
+}

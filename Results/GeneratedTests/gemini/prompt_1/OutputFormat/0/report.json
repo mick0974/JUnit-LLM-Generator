@@ -1,0 +1,111 @@
+{
+    "model": "gemini",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "java_class": "OutputFormat",
+    "reports": [
+        {
+            "generation_target": "getLineSeparator",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "setLineSeparator",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isNewlines",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setNewlines",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isOmitEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setOmitEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setSuppressDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isSuppressDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setNewLineAfterDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isNewLineAfterDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isExpandEmptyElements",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setExpandEmptyElements",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isTrimText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setTrimText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isPadText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        }
+    ],
+    "coverage_summary": null
+}

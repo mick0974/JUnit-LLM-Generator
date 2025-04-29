@@ -1,0 +1,142 @@
+{
+    "model": "chatgpt",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "java_class": "FontInfo",
+    "reports": [
+        {
+            "generation_target": "clone",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getFamily",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 3
+        },
+        {
+            "generation_target": "setFamily",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "isBold",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setIsBold",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isItalic",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setIsItalic",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "getSize",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setSize",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setFont",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 8
+        },
+        {
+            "generation_target": "doesFontMatch",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "generateStyle",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "createFont",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "toString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "hashCode",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "equals",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 95.24,
+            "covered": 280,
+            "missed": 14,
+            "total": 294
+        },
+        "LINE": {
+            "percentage": 94.94,
+            "covered": 75,
+            "missed": 4,
+            "total": 79
+        },
+        "COMPLEXITY": {
+            "percentage": 93.18,
+            "covered": 41,
+            "missed": 3,
+            "total": 44
+        },
+        "METHOD": {
+            "percentage": 100.0,
+            "covered": 19,
+            "missed": 0,
+            "total": 19
+        },
+        "BRANCH": {
+            "percentage": 92.0,
+            "covered": 46,
+            "missed": 4,
+            "total": 50
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

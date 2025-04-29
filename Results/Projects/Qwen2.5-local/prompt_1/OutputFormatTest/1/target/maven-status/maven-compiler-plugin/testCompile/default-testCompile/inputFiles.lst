@@ -1,0 +1,11 @@
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_isNewlinesTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_getIndentTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_setTrimTextTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_setPadTextTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_setOmitEncodingTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_parseOptionsTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_isPadTextTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_createCompactFormatTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_getAttributeQuoteCharacterTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_setNewlinesTest.java
+/home/michele/JUnit-LLM-Generator/Results/Projects/Qwen2.5-local/prompt_1/OutputFormatTest/1/src/test/java/OutputFormat_setExpandEmptyElementsTest.java

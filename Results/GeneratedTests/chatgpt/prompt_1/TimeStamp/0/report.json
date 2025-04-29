@@ -1,0 +1,130 @@
+{
+    "model": "chatgpt",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "java_class": "TimeStamp",
+    "reports": [
+        {
+            "generation_target": "ntpValue",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 5
+        },
+        {
+            "generation_target": "getSeconds",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "getFraction",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getTime",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "getDate",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 6
+        },
+        {
+            "generation_target": "getNtpTime",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 4
+        },
+        {
+            "generation_target": "getCurrentTime",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "parseNtpString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "hashCode",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 3
+        },
+        {
+            "generation_target": "equals",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "toString",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "toDateString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "toUTCString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 5
+        },
+        {
+            "generation_target": "compareTo",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 95.21,
+            "covered": 318,
+            "missed": 16,
+            "total": 334
+        },
+        "LINE": {
+            "percentage": 94.44,
+            "covered": 68,
+            "missed": 4,
+            "total": 72
+        },
+        "COMPLEXITY": {
+            "percentage": 89.19,
+            "covered": 33,
+            "missed": 4,
+            "total": 37
+        },
+        "METHOD": {
+            "percentage": 100.0,
+            "covered": 22,
+            "missed": 0,
+            "total": 22
+        },
+        "BRANCH": {
+            "percentage": 83.33,
+            "covered": 25,
+            "missed": 5,
+            "total": 30
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

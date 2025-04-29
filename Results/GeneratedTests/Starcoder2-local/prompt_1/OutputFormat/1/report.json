@@ -1,0 +1,226 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "java_class": "OutputFormat",
+    "reports": [
+        {
+            "generation_target": "getLineSeparator",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setLineSeparator",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isNewlines",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setNewlines",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isOmitEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setOmitEncoding",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setSuppressDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isSuppressDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setNewLineAfterDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isNewLineAfterDeclaration",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isExpandEmptyElements",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setExpandEmptyElements",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isTrimText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setTrimText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isPadText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setPadText",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getIndent",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setIndent",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "setIndentSize",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "isXHTML",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setXHTML",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getNewLineAfterNTags",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setNewLineAfterNTags",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getAttributeQuoteCharacter",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setAttributeQuoteCharacter",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "parseOptions",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "createPrettyPrint",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "createCompactFormat",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 34.85,
+            "covered": 176,
+            "missed": 329,
+            "total": 505
+        },
+        "LINE": {
+            "percentage": 50.0,
+            "covered": 58,
+            "missed": 58,
+            "total": 116
+        },
+        "COMPLEXITY": {
+            "percentage": 50.0,
+            "covered": 27,
+            "missed": 27,
+            "total": 54
+        },
+        "METHOD": {
+            "percentage": 65.71,
+            "covered": 23,
+            "missed": 12,
+            "total": 35
+        },
+        "BRANCH": {
+            "percentage": 23.68,
+            "covered": 9,
+            "missed": 29,
+            "total": 38
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

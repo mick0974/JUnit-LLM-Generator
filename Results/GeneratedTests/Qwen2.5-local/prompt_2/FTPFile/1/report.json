@@ -1,0 +1,52 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "java_class": "FTPFile",
+    "reports": [
+        {
+            "generation_target": "",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 23
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 28.12,
+            "covered": 124,
+            "missed": 317,
+            "total": 441
+        },
+        "LINE": {
+            "percentage": 42.73,
+            "covered": 47,
+            "missed": 63,
+            "total": 110
+        },
+        "COMPLEXITY": {
+            "percentage": 38.46,
+            "covered": 20,
+            "missed": 32,
+            "total": 52
+        },
+        "METHOD": {
+            "percentage": 62.5,
+            "covered": 20,
+            "missed": 12,
+            "total": 32
+        },
+        "BRANCH": {
+            "percentage": 2.63,
+            "covered": 1,
+            "missed": 37,
+            "total": 38
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

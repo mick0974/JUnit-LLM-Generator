@@ -1,0 +1,9 @@
+HSLColor_setSaturationTest.class
+HSLColor_getRedTest.class
+HSLColor_reverseColorTest.class
+HSLColor_getLuminenceTest.class
+HSLColor_blendTest.class
+HSLColor_getBlueTest.class
+HSLColor_getGreenTest.class
+HSLColor_brightenTest.class
+HSLColor_setLuminenceTest.class

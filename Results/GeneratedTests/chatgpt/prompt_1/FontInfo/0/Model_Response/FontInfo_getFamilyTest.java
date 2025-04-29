@@ -1,0 +1,123 @@
+```java
+public class FontInfo_getFamilyTest {
+
+    private FontInfo fontInfoDefault;
+    private FontInfo fontInfoWithFont;
+
+    private static final String CUSTOM_FAMILY = "Arial";
+    private static final int CUSTOM_SIZE = 14;
+
+    @Before
+    public void setUp() {
+        fontInfoDefault = new FontInfo();
+        fontInfoWithFont = new FontInfo(new Font(CUSTOM_FAMILY, Font.PLAIN, CUSTOM_SIZE));
+    }
+
+    @After
+    public void tearDown() {
+        fontInfoDefault = null;
+        fontInfoWithFont = null;
+    }
+
+    @Test
+    public void testGetFamily_DefaultConstructor() {
+        // Arrange
+        // Act
+        String family = fontInfoDefault.getFamily();
+        // Assert
+        assertEquals("Default family should be Monospaced", "Monospaced", family);
+    }
+
+    @Test
+    public void testGetFamily_CustomConstructor() {
+        // Arrange
+        // Act
+        String family = fontInfoWithFont.getFamily();
+        // Assert
+        assertEquals("The family name should be set to Arial", CUSTOM_FAMILY, family);
+    }
+
+    @Test
+    public void testSetFamily_NullValue() {
+        // Arrange
+        fontInfoDefault.setFamily(null);
+        // Act
+        String family = fontInfoDefault.getFamily();
+        // Assert
+        assertEquals("Family should fallback to default if null is set", "Monospaced", family);
+    }
+
+    @Test
+    public void testSetFamily_EmptyString() {
+        // Arrange
+        fontInfoDefault.setFamily("");
+        // Act
+        String family = fontInfoDefault.getFamily();
+        // Assert
+        assertEquals("Family should accept empty string", "", family);
+    }
+
+    @Test
+    public void testSetFamily_CustomValue() {
+        // Arrange
+        fontInfoDefault.setFamily(CUSTOM_FAMILY);
+        // Act
+        String family = fontInfoDefault.getFamily();
+        // Assert
+        assertEquals("Family should be set to Arial", CUSTOM_FAMILY, family);
+    }
+
+    @Test
+    public void testChangeFamilyAfterCreation() {
+        // Arrange
+        fontInfoWithFont.setFamily("Times New Roman");
+        // Act
+        String family = fontInfoWithFont.getFamily();
+        // Assert
+        assertEquals("Family should be updated to Times New Roman", "Times New Roman", family);
+    }
+
+    @Test
+    public void testGetFamily_AfterFontChange() {
+        // Arrange
+        fontInfoWithFont.setFont(new Font("Verdana", Font.PLAIN, CUSTOM_SIZE));
+        // Act
+        String family = fontInfoWithFont.getFamily();
+        // Assert
+        assertEquals("Family should update to Verdana", "Verdana", family);
+    }
+
+    @Test
+    public void testGetFamily_AfterSetBold() {
+        // Arrange
+        fontInfoDefault.setIsBold(true);
+        // Act
+        String family = fontInfoDefault.getFamily();
+        // Assert
+        assertEquals("Bold setting should not affect family", "Monospaced", family);
+    }
+
+    @Test
+    public void testGetFamily_WithItalicAndBold() {
+        // Arrange
+        fontInfoDefault.setIsItalic(true);
+        fontInfoDefault.setIsBold(true);
+        // Act
+        String family = fontInfoDefault.getFamily();
+        // Assert
+        assertEquals("Italic and bold should not affect family", "Monospaced", family);
+    }
+
+    @Test
+    public void testGetFamily_AfterCloning() throws CloneNotSupportedException {
+        // Arrange
+        FontInfo clonedFontInfo = (FontInfo) fontInfoWithFont.clone();
+        // Act
+        String family = clonedFontInfo.getFamily();
+        // Assert
+        assertEquals("Cloned object should have the same family", CUSTOM_FAMILY, family);
+    }
+}
+```
+
+This `JUnit 4` test class sets up multiple test cases to verify the behavior of the `getFamily` method in a `FontInfo` class, ensuring coverage of typical scenarios and edge cases.

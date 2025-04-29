@@ -1,0 +1,11 @@
+OutputFormat_setExpandEmptyElementsTest.class
+OutputFormat_createCompactFormatTest.class
+OutputFormat_setPadTextTest.class
+OutputFormat_isNewlinesTest.class
+OutputFormat_getAttributeQuoteCharacterTest.class
+OutputFormat_parseOptionsTest.class
+OutputFormat_setTrimTextTest.class
+OutputFormat_setOmitEncodingTest.class
+OutputFormat_getIndentTest.class
+OutputFormat_isPadTextTest.class
+OutputFormat_setNewlinesTest.class

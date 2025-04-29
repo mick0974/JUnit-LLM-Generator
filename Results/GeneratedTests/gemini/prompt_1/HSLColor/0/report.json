@@ -1,0 +1,130 @@
+{
+    "model": "gemini",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "java_class": "HSLColor",
+    "reports": [
+        {
+            "generation_target": "initHSLbyRGB",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "initRGBbyHSL",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "getHue",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setHue",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "getSaturation",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setSaturation",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "getLuminence",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "setLuminence",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getRed",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "getGreen",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getBlue",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "reverseColor",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "brighten",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 3
+        },
+        {
+            "generation_target": "blend",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 91.08,
+            "covered": 521,
+            "missed": 51,
+            "total": 572
+        },
+        "LINE": {
+            "percentage": 88.79,
+            "covered": 103,
+            "missed": 13,
+            "total": 116
+        },
+        "COMPLEXITY": {
+            "percentage": 80.77,
+            "covered": 42,
+            "missed": 10,
+            "total": 52
+        },
+        "METHOD": {
+            "percentage": 78.26,
+            "covered": 18,
+            "missed": 5,
+            "total": 23
+        },
+        "BRANCH": {
+            "percentage": 91.38,
+            "covered": 53,
+            "missed": 5,
+            "total": 58
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

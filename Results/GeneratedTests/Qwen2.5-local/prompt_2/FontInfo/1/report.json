@@ -1,0 +1,52 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "java_class": "FontInfo",
+    "reports": [
+        {
+            "generation_target": "",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 7
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 47.28,
+            "covered": 139,
+            "missed": 155,
+            "total": 294
+        },
+        "LINE": {
+            "percentage": 49.37,
+            "covered": 39,
+            "missed": 40,
+            "total": 79
+        },
+        "COMPLEXITY": {
+            "percentage": 34.09,
+            "covered": 15,
+            "missed": 29,
+            "total": 44
+        },
+        "METHOD": {
+            "percentage": 73.68,
+            "covered": 14,
+            "missed": 5,
+            "total": 19
+        },
+        "BRANCH": {
+            "percentage": 28.0,
+            "covered": 14,
+            "missed": 36,
+            "total": 50
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

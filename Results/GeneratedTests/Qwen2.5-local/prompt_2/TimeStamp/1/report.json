@@ -1,0 +1,52 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "java_class": "TimeStamp",
+    "reports": [
+        {
+            "generation_target": "",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 8
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 71.56,
+            "covered": 239,
+            "missed": 95,
+            "total": 334
+        },
+        "LINE": {
+            "percentage": 70.83,
+            "covered": 51,
+            "missed": 21,
+            "total": 72
+        },
+        "COMPLEXITY": {
+            "percentage": 64.86,
+            "covered": 24,
+            "missed": 13,
+            "total": 37
+        },
+        "METHOD": {
+            "percentage": 81.82,
+            "covered": 18,
+            "missed": 4,
+            "total": 22
+        },
+        "BRANCH": {
+            "percentage": 56.67,
+            "covered": 17,
+            "missed": 13,
+            "total": 30
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

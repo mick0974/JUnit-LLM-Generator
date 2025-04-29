@@ -1,0 +1,130 @@
+{
+    "model": "Qwen2.5-local",
+    "prompt": "prompt_1",
+    "scope": "method",
+    "java_class": "TimeStamp",
+    "reports": [
+        {
+            "generation_target": "ntpValue",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "getSeconds",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 8
+        },
+        {
+            "generation_target": "getFraction",
+            "executable_after_heuristics": true,
+            "executable_after_cleanup": null,
+            "removed_methods_during_cleanup": 0
+        },
+        {
+            "generation_target": "getTime",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 9
+        },
+        {
+            "generation_target": "getDate",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 17
+        },
+        {
+            "generation_target": "getNtpTime",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "getCurrentTime",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 1
+        },
+        {
+            "generation_target": "parseNtpString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 6
+        },
+        {
+            "generation_target": "hashCode",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 5
+        },
+        {
+            "generation_target": "equals",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 2
+        },
+        {
+            "generation_target": "toString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 7
+        },
+        {
+            "generation_target": "toDateString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 8
+        },
+        {
+            "generation_target": "toUTCString",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 9
+        },
+        {
+            "generation_target": "compareTo",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": true,
+            "removed_methods_during_cleanup": 4
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 90.42,
+            "covered": 302,
+            "missed": 32,
+            "total": 334
+        },
+        "LINE": {
+            "percentage": 91.67,
+            "covered": 66,
+            "missed": 6,
+            "total": 72
+        },
+        "COMPLEXITY": {
+            "percentage": 81.08,
+            "covered": 30,
+            "missed": 7,
+            "total": 37
+        },
+        "METHOD": {
+            "percentage": 95.45,
+            "covered": 21,
+            "missed": 1,
+            "total": 22
+        },
+        "BRANCH": {
+            "percentage": 76.67,
+            "covered": 23,
+            "missed": 7,
+            "total": 30
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "java_class": "FontInfo",
+    "reports": [
+        {
+            "generation_target": "",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 2
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 65.99,
+            "covered": 194,
+            "missed": 100,
+            "total": 294
+        },
+        "LINE": {
+            "percentage": 60.76,
+            "covered": 48,
+            "missed": 31,
+            "total": 79
+        },
+        "COMPLEXITY": {
+            "percentage": 40.91,
+            "covered": 18,
+            "missed": 26,
+            "total": 44
+        },
+        "METHOD": {
+            "percentage": 73.68,
+            "covered": 14,
+            "missed": 5,
+            "total": 19
+        },
+        "BRANCH": {
+            "percentage": 38.0,
+            "covered": 19,
+            "missed": 31,
+            "total": 50
+        },
+        "CLASS": {
+            "percentage": 100.0,
+            "covered": 1,
+            "missed": 0,
+            "total": 1
+        }
+    }
+}

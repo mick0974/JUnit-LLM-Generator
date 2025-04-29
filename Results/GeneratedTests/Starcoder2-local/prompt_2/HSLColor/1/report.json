@@ -1,0 +1,52 @@
+{
+    "model": "Starcoder2-local",
+    "prompt": "prompt_2",
+    "scope": "class",
+    "java_class": "HSLColor",
+    "reports": [
+        {
+            "generation_target": "",
+            "executable_after_heuristics": false,
+            "executable_after_cleanup": false,
+            "removed_methods_during_cleanup": 24
+        }
+    ],
+    "coverage_summary": {
+        "INSTRUCTION": {
+            "percentage": 0.0,
+            "covered": 0,
+            "missed": 572,
+            "total": 572
+        },
+        "LINE": {
+            "percentage": 0.0,
+            "covered": 0,
+            "missed": 116,
+            "total": 116
+        },
+        "COMPLEXITY": {
+            "percentage": 0.0,
+            "covered": 0,
+            "missed": 52,
+            "total": 52
+        },
+        "METHOD": {
+            "percentage": 0.0,
+            "covered": 0,
+            "missed": 23,
+            "total": 23
+        },
+        "BRANCH": {
+            "percentage": 0.0,
+            "covered": 0,
+            "missed": 58,
+            "total": 58
+        },
+        "CLASS": {
+            "percentage": 0.0,
+            "covered": 0,
+            "missed": 1,
+            "total": 1
+        }
+    }
+}
